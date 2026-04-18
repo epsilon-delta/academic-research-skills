@@ -49,7 +49,7 @@ ARS（Academic Research Skills）是一套给 Claude Code 使用的学术研究�
 帮我评审这篇论文
 ```
 
-更详细的安装步骤见 [QUICKSTART.md](QUICKSTART.md) 和 [docs/SETUP.md](docs/SETUP.md)。
+更详细的安装步骤见 [QUICKSTART.md](QUICKSTART.md) 和 [docs/SETUP.zh-CN.md](docs/SETUP.zh-CN.md)。
 
 ## 完整流程长什么样
 
@@ -116,6 +116,8 @@ ARS（Academic Research Skills）是一套给 Claude Code 使用的学术研究�
 
 - [README.md](README.md)：英文主文档
 - [README.zh-TW.md](README.zh-TW.md)：繁体中文文档
+- [docs/SETUP.zh-CN.md](docs/SETUP.zh-CN.md)：简体中文安装说明
+- [docs/PERFORMANCE.zh-CN.md](docs/PERFORMANCE.zh-CN.md)：简体中文性能与成本说明
 - [QUICKSTART.md](QUICKSTART.md)：快速开始
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)：完整架构
 - [examples/showcase/](examples/showcase/)：完整流水线的实际产物
