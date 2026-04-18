@@ -70,5 +70,6 @@ This triggers the full 10-stage pipeline. Budget ~$4-6 in API costs and 2-4 hour
 ## What's next?
 
 - [Full README](README.md) — all features, modes, installation options, and changelog
-- [中文版](README.zh-TW.md) — Traditional Chinese version
+- [简体中文版](README.zh-CN.md) — Simplified Chinese version
+- [繁體中文版](README.zh-TW.md) — Traditional Chinese version
 - [Pipeline showcase](examples/showcase/) — real artifacts from a complete pipeline run
