@@ -1,6 +1,6 @@
 ---
 name: academic-pipeline
-description: "Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity check -> finalize. Coordinates deep-research, academic-paper, and academic-paper-reviewer into a seamless 10-stage workflow with mandatory integrity verification, two-stage peer review, and reproducible quality gates. Triggers on: academic pipeline, research to paper, full paper workflow, paper pipeline, end-to-end paper, research-to-publication, complete paper workflow."
+description: "Orchestrator for the full academic research pipeline: research -> write -> integrity check -> review -> revise -> re-review -> re-revise -> final integrity check -> finalize. Coordinates deep-research, academic-paper, and academic-paper-reviewer into a seamless 10-stage workflow with mandatory integrity verification, two-stage peer review, and reproducible quality gates. Triggers on: academic pipeline, research to paper, full paper workflow, paper pipeline, end-to-end paper, research-to-publication, complete paper workflow, 学术流程, 研究到论文, 完整论文流程, 论文流水线, 端到端论文工作流, 从研究到发表."
 metadata:
   version: "3.5.0"
   last_updated: "2026-04-21"
@@ -34,6 +34,11 @@ I want to write a research paper on the impact of AI on higher education quality
 ```
 --> academic-pipeline launches, starting from Stage 1 (RESEARCH)
 
+```text
+我想完整写一篇关于 AI 对高校质量保障影响的研究论文
+```
+--> academic-pipeline launches, starting from Stage 1 (RESEARCH)
+
 **Mid-entry (existing paper):**
 ```
 I already have a paper, help me review it
@@ -60,6 +65,8 @@ I received reviewer comments, help me revise
 ### Trigger Keywords
 
 **English**: academic pipeline, research to paper, full paper workflow, paper pipeline, end-to-end paper, research-to-publication, complete paper workflow
+
+**简体中文**: 学术流程, 研究到论文, 完整论文流程, 论文流水线, 端到端论文工作流, 从研究到发表, 完整研究论文流程
 
 ### Non-Trigger Scenarios
 

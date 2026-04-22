@@ -1,6 +1,6 @@
 ---
 name: deep-research
-description: "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 7 modes: full research, quick brief, paper review, lit-review, fact-check, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 事實查核, 引導我的研究, 幫我釐清, 幫我想想, 我不確定要研究什麼, 研究方向, 研究主題."
+description: "Universal deep research agent team. 13-agent pipeline for rigorous academic research on any topic. 7 modes: full research, quick brief, paper review, lit-review, fact-check, Socratic guided research dialogue, and systematic review with optional meta-analysis. Covers research question formulation, Socratic mentoring, methodology design, systematic literature search, source verification, cross-source synthesis, risk of bias assessment, meta-analysis, APA 7.0 report compilation, editorial review, devil's advocate challenges, ethics review, and post-research literature monitoring. Triggers on: research, deep research, literature review, systematic review, meta-analysis, PRISMA, evidence synthesis, fact-check, guide my research, help me think through, 研究, 深度研究, 文獻回顧, 文献回顾, 文獻探討, 文献探讨, 系統性回顧, 系统性回顾, 後設分析, 后设分析, 事實查核, 事实查核, 引導我的研究, 引导我的研究, 幫我釐清, 帮我厘清, 幫我想想, 帮我想想, 我不確定要研究什麼, 我不确定要研究什么, 研究方向, 研究主題, 研究主题."
 metadata:
   version: "2.9.0"
   last_updated: "2026-04-20"
@@ -32,6 +32,8 @@ Research the impact of AI on higher education quality assurance
 Guide my research on the impact of declining birth rates on private universities
 引導我的研究：少子化對私立大學的影響
 幫我釐清我的研究方向，我對高教品保有興趣但還不太確定
+引导我的研究：少子化对民办高校的影响
+帮我厘清我的研究方向，我对高等教育质量保障有兴趣，但还不太确定
 ```
 
 **Execution:**
@@ -52,6 +54,8 @@ Guide my research on the impact of declining birth rates on private universities
 
 **繁體中文**: 研究, 深度研究, 文獻回顧, 文獻探討, 系統性回顧, 後設分析, 證據綜整, 事實查核, 研究方法, 學術分析, 政策分析, 引導我的研究, 幫我釐清, 監測這個主題, 設定追蹤
 
+**简体中文**: 研究, 深度研究, 文献回顾, 文献探讨, 系统性回顾, 后设分析, 证据综整, 事实查核, 研究方法, 学术分析, 政策分析, 引导我的研究, 帮我厘清, 监测这个主题, 设置追踪
+
 ### Socratic Mode Activation
 
 Activate `socratic` mode when the user's **intent** matches any of the following patterns, **regardless of language**. Detect meaning, not exact keywords.
@@ -66,7 +70,7 @@ Activate `socratic` mode when the user's **intent** matches any of the following
 **Default rule**: When intent is ambiguous between `socratic` and `full`, **prefer `socratic`** — it is safer to guide first than to produce an unwanted report. The user can always switch to `full` later.
 
 **Example triggers** (illustrative, not exhaustive):
-"guide my research", "help me think through", 「引導我的研究」「幫我釐清」, or equivalent in any language
+"guide my research", "help me think through", 「引導我的研究」「幫我釐清」, 「引导我的研究」「帮我厘清」, or equivalent in any language
 
 ### Does NOT Trigger
 
